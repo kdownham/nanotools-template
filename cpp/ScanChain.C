@@ -39,7 +39,7 @@ using namespace tas;
 
 int ScanChain(TChain *ch) {
 
-    TFile* f1 = new TFile("output_joe.root", "RECREATE");
+    TFile* f1 = new TFile("output.root", "RECREATE");
     float pt = 0;
     TTree tree_out("tree","");
     tree_out.Branch("pt", &pt);
