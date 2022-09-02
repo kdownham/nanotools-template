@@ -17,3 +17,4 @@ cd ../cpp
 root -l -b -q doAll.C
 ```
 
+This produces an output.root file with a tree with one branch: leading muon pt. 
