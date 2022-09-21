@@ -7,6 +7,7 @@ Running from UAF:
 ```
 git clone https://github.com/joseph-crowley/nanotools-template.git
 cd /cvmfs/cms.cern.ch/slc7_amd64_gcc900/cms/cmssw/CMSSW_12_2_0/ ; cmsenv ; cd -
+voms-proxy-init --rfc --voms cms -valid 192:00
 cd nanotools-template/NanoCORE
 make clean all 
 ```
